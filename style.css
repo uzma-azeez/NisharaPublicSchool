@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAF1E6; 
+    color: #14213D; 
+}
+header {
+    background-color: #14213D; 
+    color: #FAF1E6; 
+    padding: 20px;
+    text-align: center;
+}
+#school-logo {
+    width: 100px;
+    height: auto;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 5px;
+}
+nav {
+    background-color: #9D0208; 
+    padding: 15px 0;
+    margin-bottom: 20px; 
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #FAF1E6; 
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #D4A017; 
+}
+.image-scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    padding: 10px 0; 
+}
+.image-scroll {
+    display: flex;
+    width: max-content;
+    animation: scrollImages 20s linear infinite;
+}
+.image-scroll img {
+    width: 250px; 
+    height: auto;
+    border-radius: 8px;
+    margin-right: 15px; 
+}
+@keyframes scrollImages {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+.motto {
+    text-align: center;
+    font-size: 1.5em;
+    color: #9D0208; 
+    font-style: italic;
+    margin: 40px 0;
+}
+.about-brief {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2em;
+    color: #14213D;
+}
+.read-more {
+    display: inline-block;
+    background-color: #9D0208; 
+    color: #FAF1E6;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+.read-more:hover {
+    background-color: #D4A017; 
+}
+.contact {
+    text-align: center;
+    font-size: 1.2em;
+    color: #14213D;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #FAF1E6; 
+}
+.contact h2 {
+    font-size: 1.5em;
+    color: #9D0208; 
+    margin-bottom: 10px;
+}
+.contact p {
+    margin: 5px 0;
+}
+.contact a {
+    color: #9D0208; 
+    font-weight: bold;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+    color: #D4A017; 
+}
+footer {
+    background-color: #A67C52; 
+    color: #14213D; 
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
